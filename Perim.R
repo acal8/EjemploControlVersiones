@@ -6,8 +6,8 @@ LongitudCircunferencia <- function(R){
   return(2*pi*R)
 }
 
-PerimetroRectangulo <- function(base, altura){
-  return((L+l)*2)
+PerimetroRectangulo <- function(L, l){
+  return(2*(L+l))
 }
 
 pi <- 3.14159
